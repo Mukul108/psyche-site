@@ -3,14 +3,14 @@
     <div class="background-image"></div>
     <div class="glass-container">
       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-
+      <h3 class="subtitle0">TEAM</h3>
       <h1 class="title">Psyche</h1>
       <h2 class="subtitle">HUNGER OF BUILDING TECH</h2>
       <div class="social-buttons">
-        <a href="#" class="button">Facebook</a>
-        <a href="#" class="button">Twitter</a>
-        <a href="#" class="button">Instagram</a>
-        <a href="#" class="button">LinkedIn</a>
+        <a href="#" class="button"> <img src="../public/social/git.png" alt=""> </a>
+        <a href="#" class="button"> <img src="../public/social/dis.png" alt=""> </a>
+        <a href="#" class="button"> <img src="../public/social/insta.png" alt=""> </a>
+        <a href="#" class="button"> <img src="../public/social/twit.png" alt=""> </a>
       </div>
     </div>
   </div>
@@ -43,8 +43,8 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.425);
+  backdrop-filter: blur(5px);
   border-radius: 120px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-left: 90px;
@@ -53,7 +53,7 @@
 
 .title {
   font-family: 'Dancing Script', cursive;
-  font-size: 15rem;
+  font-size: 14.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -63,17 +63,18 @@
   margin-bottom: 2rem;
 }
 
+.subtitle0 {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
 .social-buttons {
   display: flex;
 }
 
 .button {
-  margin-right: 0.5rem;
-  padding: 0.5rem 1rem;
-  background-color: #3182ce;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
+  width: 100px;
+  padding: 20px;
 }
 
 .button:last-child {
