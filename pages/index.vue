@@ -7,10 +7,10 @@
       <h1 class="title">Psyche</h1>
       <h2 class="subtitle">HUNGER OF BUILDING TECH</h2>
       <div class="social-buttons">
-        <a href="#" class="button"> <img src="../public/social/git.png" alt=""> </a>
-        <a href="#" class="button"> <img src="../public/social/dis.png" alt=""> </a>
-        <a href="#" class="button"> <img src="../public/social/insta.png" alt=""> </a>
-        <a href="#" class="button"> <img src="../public/social/twit.png" alt=""> </a>
+        <a href="https://github.com/psycheai" class="button"> <img src="../public/social/git.svg" alt=""> </a>
+        <a href="https://discord.gg/y27qMeJY" class="button"> <img src="../public/social/dis.svg" alt=""> </a>
+        <a href="#" class="button"> <img src="../public/social/insta.svg" alt=""> </a>
+        <a href="#" class="button"> <img src="../public/social/twit.svg" alt=""> </a>
       </div>
     </div>
   </div>
